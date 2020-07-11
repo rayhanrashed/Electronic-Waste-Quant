@@ -1,0 +1,352 @@
+,division,age,gender,edu,occupation,device_count_5_yr,last_dumped_device,dump_within,did_with_device,did_with_data,miss_dev,memory_dev,miss_another,dump_reason_1,dump_reason_2,dump_reason_3,dump_reason_4,dump_reason_5,dump_reason_6
+0,Dhaka,20-29,Woman,Bachelors,Student,6-8,Smartphone,<2 yr,1,5.0,Y,Y,Y,0,1,1,0,0,1
+1,Dhaka,20-29,Man,High School,Student,4-6,Smartphone,<2 yr,1,5.0,N,N,N,0,1,0,0,0,1
+2,Dhaka,20-29,Man,High School,Student,3-4,Smartphone,<1 mn,6,4.0,Y,Y,N ,0,1,0,0,0,0
+3,Dhaka,20-29,Man,Bachelors,Student,4-6,Laptop,<1 yr,1,1.0,Y,Y,Y,0,0,1,0,0,0
+4,Dhaka,20-29,Woman,High School,Student,4-6,Smartphone,<4 yr,1,5.0,N,Y,Y,0,0,0,0,0,1
+5,Dhaka,20-29,Man,High School,Student,4-6,Smartphone,<2 yr,1,1.0,N,N,N,1,1,0,0,0,1
+6,Dhaka,20-29,Man,High School,Student,4-6,Desktop,<4 yr,3,4.0,N,Y,N,1,1,0,0,0,1
+7,Dhaka,20-29,Man,High School,Student,4-6,Smartphone,<2 yr,3,5.0,N,N,Y,0,1,0,0,0,0
+8,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<6 mn,1,1.0,N,Y,Y,1,1,1,0,0,1
+9,Dhaka,20-29,Man,High School,Student,3-4,Smartphone,<2 yr,1,1.0,N,N,N,0,1,1,0,0,0
+10,Dhaka,20-29,Man,Bachelors,Student,6-8,Tablet,<6 mn,1,5.0,Y,Y,Y,0,1,0,0,0,1
+11,Dhaka,20-29,Woman,Bachelors,Job,6-8,Smartphone,<1 mn,6,4.0,N,N,Y,1,1,0,0,0,1
+12,Dhaka,20-29,Woman,Bachelors,Student,6-8,Smartphone,<6 mn,1,1.0,N,N,N,1,1,0,0,0,1
+13,Dhaka,20-29,Man,Bachelors,Student,4-6,Smartphone,<1 yr,1,5.0,N,Y,Y,0,0,0,0,0,0
+14,Dhaka,20-29,Man,Bachelors,Student,4-6,Laptop,<6 mn,3,4.0,N,Y,Y,0,1,0,0,0,0
+15,Dhaka,20-29,Man,Bachelors,Student,4-6,Smartphone,<4 yr,1,2.0,N,Y,Y,0,0,1,0,0,0
+16,Dhaka,20-29,Man,Bachelors,Student,4-6,Smartphone,<2 yr,1,4.0,N,N,N,0,0,1,0,0,1
+17,Dhaka,20-29,Woman,Bachelors,Job,3-4,Laptop,<6 mn,1,1.0,N,N,N,0,0,0,0,0,1
+18,Dhaka,20-29,Man,Bachelors,Unemployed,3-4,Desktop,<6 mn,4,5.0,N,N,Y,0,0,1,0,0,0
+19,Dhaka,20-29,Man,Masters,Job,4-6,Tablet,<1 yr,1,1.0,N,Y,Y,0,0,0,0,0,1
+20,Dhaka,20-29,Woman,Masters,Job,3-4,Smartphone,<6 mn,1,1.0,N,Y,N,0,0,1,0,0,0
+21,Dhaka,20-29,Man,Bachelors,Job,6-8,Smartphone,<4 yr,1,1.0,N,N,N,1,0,0,1,0,0
+22,Dhaka,20-29,Man,Bachelors,Teacher,3-4,Smartphone,<2 yr,2,1.0,N,Y,Y,0,0,1,1,0,0
+23,Dhaka,20-29,Man,High School,Student,6-8,Desktop,<2 yr,1,1.0,N,Y,Y,0,0,1,0,0,0
+24,Dhaka,20-29,Man,Bachelors,Teacher,4-6,Smartphone,>4 yr,1,5.0,Y,Y,Y,0,1,1,0,0,0
+25,Dhaka,20-29,Man,Bachelors,Teacher,3-4,Smartphone,<2 yr,1,1.0,N,Y,Y,1,1,0,0,0,1
+26,Dhaka,20-29,Man,Masters,Technical Works,6-8,Smartphone,<6 mn,1,5.0,N,N,N,1,0,0,0,0,1
+27,Dhaka,20-29,Man,Bachelors,Technical Works,1-2,Smartphone,<6 mn,1,5.0,Y,Y,Y,0,0,1,0,0,0
+28,Dhaka,1-19,Woman,Bachelors,Student,1-2,Smartphone,<1 mn,6,4.0,N,N,N,1,0,0,0,0,0
+29,Dhaka,20-29,Man,Bachelors,Unemployed,3-4,Smartphone,<4 yr,1,5.0,N,N,N,0,0,1,0,0,0
+30,Dhaka,20-29,Woman,High School,Student,3-4,Smartphone,<6 mn,1,5.0,Y,Y,Y,0,0,1,0,0,1
+31,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<6 mn,1,1.0,Y,N,N,0,1,0,0,0,0
+32,Dhaka,20-29,Man,Bachelors,Job,4-6,Laptop,<6 mn,1,1.0,N,Y,Y,0,1,0,0,0,0
+33,Dhaka,20-29,Man,High School,Student,1-2,Smartphone,<2 yr,1,1.0,N,N,N,0,0,1,0,0,0
+34,Dhaka,20-29,Man,High School,Student,3-4,Featurephone,<2 yr,1,1.0,Y,Y,N,0,0,1,0,0,0
+35,Dhaka,30-39,Woman,Masters,Teacher,3-4,Tablet,<6 mn,7,1.0,N,Y,Y,1,0,0,0,0,0
+36,Dhaka,20-29,Man,Bachelors,Job,10-12,Smartphone,<1 yr,1,2.0,Y,Y,N,0,0,1,0,0,0
+37,Dhaka,1-19,Man,High School,Student,3-4,Smartphone,<1 yr,1,3.0,Y,Y,Y,0,0,0,0,1,0
+38,Dhaka,20-29,Man,Bachelors,Student,1-2,Featurephone,<4 yr,1,,N,N,N,0,0,0,0,1,0
+39,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<4 yr,6,5.0,N,N,N,0,0,0,1,0,0
+40,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<2 yr,1,1.0,N,N,N,0,0,1,0,0,0
+41,Chittagong,30-39,Woman,Masters,Lawyer  ,4-6,Smartphone,<2 yr,1,2.0,N,Y,Y,0,0,1,0,0,0
+42,Dhaka,20-29,Man,High School,Student,3-4,Smartphone,<2 yr,1,2.0,Y,Y,N,0,0,1,0,0,0
+43,Dhaka,20-29,Woman,High School,Student,1-2,Smartphone,<1 yr,1,2.0,Y,N,Y,0,0,0,1,0,0
+44,Dhaka,20-29,Man,Bachelors,Student,10-12,Featurephone,<6 mn,1,1.0,N,N,Y,0,0,1,0,0,0
+45,Dhaka,20-29,Man,High School,Student,3-4,Smartphone,<1 yr,1,5.0,Y,Y,Y,0,1,0,0,0,1
+46,Dhaka,20-29,Woman,Bachelors,Student,3-4,Smartphone,<1 yr,1,1.0,Y,Y,Y,1,0,0,0,0,0
+47,Dhaka,20-29,Man,Masters,Teacher,6-8,Smartphone,<2 yr,1,1.0,Y,Y,Y,0,0,1,0,0,0
+48,Dhaka,20-29,Man,Masters,Teacher,6-8,Smartphone,<2 yr,1,1.0,Y,Y,Y,0,0,1,0,0,0
+49,Dhaka,20-29,Man,High School,Student,4-6,Smartphone,<1 yr,1,5.0,Y,Y,Y,0,0,0,0,0,1
+50,Dhaka,1-19,Woman,Bachelors,Student,1-2,Smartphone,<4 yr,1,1.0,Y,Y,Y,0,1,1,0,0,1
+51,Dhaka,20-29,Man,High School,Student,6-8,Featurephone,<4 yr,1,1.0,N,N,N,0,1,0,0,0,0
+52,Dhaka,20-29,Man,High School,Student,12-,Tablet,<4 yr,1,3.0,N,Y,Y,0,0,0,0,0,1
+53,Dhaka,20-29,Woman,High School,Student,6-8,Tablet,<2 yr,1,5.0,N,N,N,1,0,0,0,0,0
+54,Dhaka,20-29,Man,High School,Student,3-4,Smartphone,<6 mn,1,5.0,Y,N,N,0,1,0,0,0,0
+55,Dhaka,20-29,Man,Bachelors,Job,6-8,Laptop,<1 yr,1,5.0,N,N,N,0,0,1,0,0,1
+56,Dhaka,20-29,Woman,High School,Student,1-2,Featurephone,>4 yr,1,5.0,Y,Y,Y,0,0,0,0,0,0
+57,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<2 yr,1,5.0,Y,Y,N,0,1,0,0,0,1
+58,Dhaka,30-39,Man,Bachelors,Job,4-6,Desktop,<1 yr,1,5.0,Y,Y,N,1,1,1,0,0,1
+59,Dhaka,20-29,Man,Bachelors,Teacher,4-6,Smartphone,<6 mn,1,2.0,Y,Y,N,0,0,1,0,0,0
+60,Chittagong,30-39,Man,Masters,Teacher,4-6,Smartphone,<6 mn,1,4.0,N,Y,Y,0,1,1,0,0,0
+61,Dhaka,30-39,Man,Bachelors,Technical Works,6-8,Smartphone,<6 mn,1,2.0,Y,N,Y,0,0,1,0,0,0
+62,Dhaka,1-19,Man,High School,Student,1-2,Smartphone,<6 mn,6,1.0,Y,Y,N,0,0,0,1,0,0
+63,Dhaka,70+,Man,Bachelors,Retired,3-4,Smartphone,<1 yr,1,1.0,N,Y,N,1,1,0,0,0,0
+64,Dhaka,20-29,Man,High School,Student,8-10,Featurephone,<1 yr,,1.0,N,Y,Y,0,0,0,1,0,0
+65,Chittagong,30-39,Man,Bachelors,Business,3-4,Laptop,<2 yr,1,5.0,Y,Y,N,0,1,0,0,0,0
+66,Dhaka,20-29,Man,Bachelors,Student,3-4,Tablet,<6 mn,1,1.0,N,Y,Y,0,1,0,0,0,0
+67,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<2 yr,1,5.0,N,Y,Y,1,1,0,0,0,1
+68,Dhaka,20-29,Man,Bachelors,Student,6-8,Tablet,<1 yr,3,4.0,N,N,Y,1,0,0,0,0,0
+69,Dhaka,20-29,Man,High School,Student,3-4,Smartphone,<4 yr,1,5.0,N,Y,N,0,0,1,0,0,1
+70,Rongpur,30-39,Man,Masters,Job,6-8,Smartphone,<2 yr,3,4.0,N,Y,Y,0,0,0,0,1,0
+71,Dhaka,20-29,Woman,High School,Student,3-4,Tablet,<2 yr,1,4.0,N,N,Y,0,0,1,0,0,0
+72,Dhaka,20-29,Woman,High School,Student,4-6,Smartphone,<1 yr,3,5.0,Y,N,Y,0,0,1,0,0,1
+73,Dhaka,30-39,Man,Masters,Banker,12-,Featurephone,>4 yr,1,5.0,N,N,Y,0,0,0,0,1,0
+74,Dhaka,30-39,Man,Masters,Job,6-8,Smartphone,<2 yr,1,1.0,N,N,Y,0,1,0,0,0,0
+75,Rongpur,20-29,Man,Bachelors,Student,3-4,Smartphone,<6 mn,3,5.0,N,N,N,1,1,0,0,0,1
+76,Chittagong,20-29,Man,Masters,Unemployed,4-6,Laptop,<2 yr,1,1.0,N,N,N,1,0,1,0,0,0
+77,Dhaka,30-39,Man,Masters,Job,3-4,Smartphone,<4 yr,1,1.0,N,N,N,0,0,1,0,0,0
+78,Dhaka,20-29,Man,Bachelors,Student,4-6,Featurephone,<6 mn,1,1.0,N,N,N,1,0,0,0,0,0
+79,Dhaka,30-39,Man,Masters,Job,8-10,Desktop,<1 yr,1,5.0,N,N,Y,1,0,1,0,0,0
+80,Dhaka,1-19,Man,SSC,Student,3-4,Smartphone,<2 yr,7,4.0,N,Y,N,0,1,1,0,0,0
+81,Dhaka,30-39,Man,Masters,Job,1-2,Smartphone,<1 yr,1,1.0,N,N,N,1,0,0,0,0,0
+82,Dhaka,30-39,Man,Masters,Job,12-,Laptop,<2 yr,3,5.0,N,Y,N,0,1,0,0,0,0
+83,Dhaka,20-29,Woman,High School,Student,1-2,Tablet,>4 yr,1,5.0,Y,N,N,0,0,1,0,0,0
+84,Dhaka,1-19,Woman,High School,Student,4-6,Desktop,<2 yr,1,2.0,N,Y,Y,0,0,0,0,0,0
+85,Dhaka,20-29,Man,High School,Student,4-6,Tablet,<2 yr,1,1.0,Y,Y,Y,0,0,0,0,0,1
+86,Dhaka,30-39,Man,Bachelors,Doctor,6-8,Tablet,<4 yr,7,4.0,N,N,Y,0,0,0,0,0,1
+87,Dhaka,30-39,Man,Masters,Business,4-6,Desktop,<1 yr,1,1.0,Y,N,N,0,0,1,0,0,0
+88,Dhaka,30-39,Man,Bachelors,Technical Works,4-6,Smartphone,<4 yr,1,1.0,N,N,N,0,1,0,0,1,1
+89,Chittagong,20-29,Man,High School,Student,6-8,Smartphone,<6 mn,1,2.0,Y,Y,Y,0,0,1,0,0,0
+90,Dhaka,20-29,Man,Bachelors,Student,4-6,Desktop,<1 mn,1,5.0,Y,Y,Y,1,0,0,0,0,0
+91,Chittagong,20-29,Man,Bachelors,Student,4-6,Smartphone,<6 mn,1,1.0,N,N,N,0,0,1,0,0,0
+92,Dhaka,30-39,Man,Bachelors,Job,12-,Smartphone,<1 yr,1,5.0,Y,N,Y,0,0,1,0,0,0
+93,Dhaka,30-39,Man,Bachelors,Job,12-,Smartphone,<1 yr,1,5.0,Y,N,Y,0,0,1,0,0,0
+94,Rajshahi,20-29,Man,Bachelors,Student,3-4,Smartphone,<1 yr,1,4.0,N,N,N,0,0,0,0,0,1
+95,Dhaka,20-29,Man,High School,Student,4-6,Smartphone,<2 yr,4,2.0,Y,Y,Y,1,1,1,0,1,1
+96,Dhaka,20-29,Man,High School,Student,10-12,Smartphone,<6 mn,1,4.0,Y,Y,Y,0,0,1,0,0,1
+97,Barisal,30-39,Man,Masters,Unemployed,3-4,Featurephone,<2 yr,1,1.0,Y,Y,Y,0,0,1,0,0,0
+98,Dhaka,20-29,Woman,High School,Student,1-2,Smartphone,<6 mn,1,2.0,Y,Y,Y,0,0,1,0,0,0
+99,Dhaka,20-29,Woman,Masters,Student,4-6,Laptop,<6 mn,1,1.0,Y,Y,Y,0,0,1,0,0,1
+100,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<6 mn,1,5.0,N,N,N,0,0,0,0,0,1
+101,Dhaka,30-39,Man,Masters,Business,4-6,Smartphone,<1 yr,3,4.0,N,N,Y,1,0,0,0,0,0
+102,Dhaka,20-29,Woman,High School,Student,1-2,Laptop,<1 mn,1,5.0,Y,Y,Y,0,0,0,0,1,0
+103,Dhaka,20-29,Man,Bachelors,Unemployed,3-4,Smartphone,<2 yr,1,5.0,N,Y,Y,0,1,0,0,0,1
+104,Khulna,20-29,Woman,Bachelors,Student,3-4,Smartphone,<2 yr,1,1.0,Y,Y,N,0,0,1,0,0,0
+105,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<6 mn,1,5.0,Y,Y,Y,1,1,0,0,0,1
+106,Chittagong,20-29,Woman,Bachelors,Student,4-6,Laptop,<1 yr,1,5.0,N,N,N,0,0,1,0,0,1
+107,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<1 yr,1,5.0,N,N,Y,0,0,0,0,0,1
+108,Barisal,20-29,Woman,Bachelors,Student,4-6,Smartphone,<6 mn,1,2.0,Y,Y,N,0,0,1,0,1,0
+109,Dhaka,20-29,Woman,High School,Student,3-4,Smartphone,<4 yr,1,5.0,Y,N,N,0,0,0,0,0,1
+110,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<2 yr,1,4.0,N,N,N,0,1,1,0,1,1
+111,Dhaka,20-29,Woman,Bachelors,Student,3-4,Tablet,<4 yr,,,N,N,N,0,0,0,0,0,0
+112,Chittagong,30-39,Man,Bachelors,Job,4-6,Smartphone,<4 yr,7,5.0,N,Y,N,0,0,0,0,0,1
+113,Dhaka,20-29,Man,Bachelors,Job,4-6,Smartphone,<6 mn,1,1.0,Y,Y,Y,0,0,1,0,0,1
+114,Dhaka,30-39,Woman,Masters,Job,3-4,Tablet,<4 yr,1,1.0,N,N,Y,0,0,0,0,1,0
+115,Dhaka,30-39,Man,Masters,Business,3-4,Smartphone,<2 yr,,5.0,N,N,N,0,0,0,0,0,1
+116,Dhaka,20-29,Woman,High School,Student,6-8,Smartphone,<1 yr,1,5.0,Y,Y,Y,0,1,0,0,0,0
+117,Khulna,20-29,Man,Bachelors,Student,1-2,Smartphone,<4 yr,5,5.0,N,Y,Y,0,0,1,0,0,0
+118,Dhaka,30-39,Man,Bachelors,Business,3-4,Smartphone,<4 yr,6,5.0,Y,Y,Y,0,0,0,1,0,0
+119,Dhaka,40-49,Man,Masters,Technical Works,8-10,Smartphone,<1 mn,1,1.0,Y,N,Y,0,1,0,0,0,0
+120,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<6 mn,1,1.0,Y,Y,Y,1,1,0,0,0,1
+121,Dhaka,30-39,Man,High School,Business,12-,Desktop,<4 yr,1,5.0,Y,N,N,0,1,0,0,0,0
+122,Khulna,20-29,Man,Bachelors,Student,1-2,Smartphone,<4 yr,1,1.0,N,N,N,0,0,1,0,0,0
+123,Dhaka,20-29,Man,Bachelors,Job,4-6,Laptop,<1 yr,1,5.0,Y,N,N,0,0,1,0,0,0
+124,Dhaka,30-39,Man,Masters,Business,3-4,Smartphone,<2 yr,3,4.0,N,N,Y,0,0,1,0,0,0
+125,Khulna,20-29,Woman,Bachelors,Student,4-6,Smartphone,<2 yr,1,5.0,Y,Y,Y,0,0,1,0,0,1
+126,Dhaka,20-29,Man,Bachelors,Job,3-4,Smartphone,<2 yr,1,5.0,N,N,N,1,0,0,0,0,1
+127,Dhaka,20-29,Man,Bachelors,Student,4-6,Laptop,<1 yr,1,1.0,N,Y,N,0,0,1,0,0,1
+128,Dhaka,30-39,Man,Masters,Job,6-8,Laptop,<1 yr,3,5.0,N,N,Y,1,1,0,0,0,1
+129,Dhaka,30-39,Man,Bachelors,Job,10-12,Smartphone,<1 yr,1,5.0,Y,Y,N,1,1,1,0,0,1
+130,Khulna,30-39,Man,Masters,Job,4-6,Laptop,<1 yr,1,5.0,N,N,N,0,0,1,0,0,0
+131,Chittagong,40-49,Man,Masters,Job,3-4,Smartphone,<6 mn,1,1.0,Y,N,N,0,0,1,0,0,0
+132,Khulna,20-29,Man,Bachelors,Student,3-4,Smartphone,<4 yr,1,2.0,Y,N,N,0,0,1,0,0,0
+133,Chittagong,20-29,Woman,Bachelors,Student,3-4,Smartphone,<6 mn,1,2.0,Y,Y,Y,0,0,1,0,0,0
+134,Dhaka,20-29,Man,Bachelors,Unemployed,3-4,Smartphone,<6 mn,1,5.0,N,Y,Y,0,1,0,0,0,0
+135,Dhaka,20-29,Woman,High School,Student,0,Laptop,<1 yr,1,1.0,N,N,N ,0,0,0,0,0,1
+136,Khulna,30-39,Man,Masters,Job,3-4,Smartphone,<1 yr,1,5.0,N,N,N,0,1,0,0,1,1
+137,Dhaka,20-29,Man,High School,Student,4-6,Smartphone,<6 mn,1,2.0,N,N,N,0,0,1,0,0,0
+138,Dhaka,20-29,Woman,Bachelors,Job,3-4,Laptop,>4 yr,1,1.0,Y,N,N,0,1,1,0,0,1
+139,Dhaka,20-29,Woman,Bachelors,Student,3-4,Smartphone,>4 yr,1,2.0,N,N,N,0,0,1,0,0,0
+140,Barisal,20-29,Man,Bachelors,Technical Works,3-4,Smartphone,<1 yr,1,5.0,N,N,N,0,1,0,0,0,1
+141,Dhaka,1-19,Woman,High School,Student,1-2,Smartphone,<6 mn,1,4.0,N,Y,N,1,1,0,0,0,0
+142,Khulna,20-29,Man,High School,Student,3-4,Desktop,<2 yr,1,2.0,N,N,N,0,0,1,0,0,0
+143,Dhaka,20-29,Woman,High School,Student,4-6,Smartphone,<2 yr,1,1.0,N,Y,Y,1,1,0,0,0,1
+144,Chittagong,20-29,Man,Bachelors,Student,4-6,Desktop,<1 mn,1,1.0,N,Y,Y,0,0,0,0,0,0
+145,Dhaka,20-29,Man,High School,Student,6-8,Laptop,<2 yr,5,4.0,Y,N,Y,0,0,1,0,0,0
+146,Khulna,20-29,Woman,High School,Student,1-2,Smartphone,<1 mn,1,1.0,Y,N,N,1,0,0,0,0,0
+147,Dhaka,20-29,Woman,High School,Student,4-6,Featurephone,<6 mn,1,5.0,Y,Y,Y,1,1,0,1,1,0
+148,Dhaka,20-29,Woman,Bachelors,Student,3-4,Smartphone,<2 yr,1,5.0,N,N,N,0,0,1,0,0,0
+149,Dhaka,20-29,Man,Masters,Student,4-6,Smartphone,<2 yr,1,5.0,N,N,N,0,0,0,0,1,0
+150,Dhaka,20-29,Man,Bachelors,Student,12-,Laptop,<6 mn,3,3.0,N,N,Y,0,0,0,0,0,1
+151,Dhaka,20-29,Woman,Masters,Freelancing,3-4,Smartphone,<1 mn,1,5.0,Y,Y,Y,0,0,1,0,0,0
+152,Dhaka,20-29,Man,Bachelors,Student,6-8,Smartphone,<6 mn,1,2.0,Y,N,N,1,0,1,0,0,0
+153,Dhaka,30-39,Man,PhD,Technical Works,4-6,Smartphone,<1 yr,1,5.0,N,N,N,0,0,0,0,1,0
+154,Khulna,20-29,Man,Bachelors,Student,1-2,Smartphone,<1 mn,1,1.0,Y,Y,N,0,0,1,0,0,0
+155,Khulna,20-29,Man,Bachelors,Student,1-2,Smartphone,<1 mn,1,1.0,Y,Y,N,0,0,1,0,0,0
+156,Dhaka,30-39,Man,Masters,Job,4-6,Smartphone,<6 mn,1,2.0,N,N,Y,0,0,1,0,0,0
+157,Chittagong,20-29,Man,High School,Student,3-4,Smartphone,<6 mn,1,5.0,N,Y,N,0,1,0,0,0,0
+158,Dhaka,20-29,Woman,High School,Student,4-6,Smartphone,<1 yr,1,1.0,N,N,N,1,0,0,0,0,0
+159,Dhaka,30-39,Man,Bachelors,Doctor,6-8,Smartphone,<1 yr,1,2.0,Y,Y,Y,0,0,1,0,0,0
+160,Dhaka,30-39,Man,Masters,Business,4-6,Laptop,<2 yr,1,5.0,Y,N,N,0,0,1,0,0,0
+161,Dhaka,20-29,Man,Bachelors,Technical Works,3-4,Smartphone,<6 mn,3,4.0,N,N,N,0,0,1,0,0,0
+162,Dhaka,30-39,Woman,Masters,Unemployed,3-4,Smartphone,<6 mn,1,1.0,Y,N,Y,0,0,1,0,0,0
+163,Khulna,20-29,Woman,Bachelors,Doctor,1-2,Tablet,<6 mn,1,1.0,N,Y,Y,0,0,0,0,0,1
+164,Sylhet,20-29,Man,Bachelors,Unemployed,4-6,Laptop,<4 yr,1,1.0,N,N,N,1,0,1,0,0,0
+165,Dhaka,20-29,Man,High School,Student,3-4,Smartphone,<2 yr,1,1.0,N,N,N,0,1,0,0,0,0
+166,Dhaka,30-39,Man,Masters,Job,3-4,Laptop,<4 yr,4,5.0,N,N,N,0,0,1,0,0,0
+167,Dhaka,30-39,Man,Masters,Technical Works,4-6,Smartphone,<1 yr,3,4.0,N,N,Y,0,0,0,0,1,1
+168,Dhaka,20-29,Woman,Bachelors,Student,3-4,Smartphone,<1 yr,1,5.0,Y,Y,Y,1,1,0,0,1,1
+169,Khulna,20-29,Man,High School,Job,12-,Smartphone,<2 yr,3,2.0,Y,Y,Y,0,0,1,0,1,0
+170,Rajshahi,20-29,Man,Bachelors,Student,6-8,Smartphone,<1 mn,4,2.0,Y,Y,Y,0,0,1,0,0,0
+171,Dhaka,20-29,Man,Bachelors,Unemployed,3-4,Featurephone,<4 yr,2,2.0,Y,N,N,0,0,1,0,0,0
+172,Dhaka,20-29,Man,Bachelors,Job,6-8,Desktop,<2 yr,3,5.0,N,Y,Y,1,1,0,0,0,1
+173,Dhaka,20-29,Woman,Bachelors,Technical Works,3-4,Laptop,<2 yr,3,3.0,N,Y,N,0,1,0,0,0,1
+174,Mymensingh,20-29,Man,Bachelors,Student,4-6,Smartphone,<1 yr,1,5.0,N,N,N,1,1,0,0,0,0
+175,Dhaka,20-29,Man,Bachelors,Unemployed,3-4,Smartphone,<2 yr,1,3.0,Y,Y,Y,0,0,0,0,1,0
+176,Dhaka,30-39,Man,Masters,journalist,3-4,Laptop,<2 yr,1,1.0,N,Y,N,0,1,1,0,0,1
+177,Dhaka,20-29,Man,Bachelors,Job,6-8,Laptop,<1 mn,3,4.0,Y,N,Y,0,0,1,0,0,0
+178,Chittagong,20-29,Man,High School,Student,1-2,Smartphone,<6 mn,1,2.0,N,N,N,0,0,1,0,1,1
+179,Dhaka,20-29,Woman,High School,Student,3-4,Desktop,<2 yr,1,1.0,N,N,N,1,0,0,0,0,0
+180,Khulna,20-29,Woman,Bachelors,Student,1-2,Smartphone,<6 mn,6,1.0,Y,Y,Y,0,0,0,1,0,0
+181,Dhaka,20-29,Man,Bachelors,Student,1-2,Featurephone,<2 yr,1,5.0,Y,Y,N,1,0,0,0,0,0
+182,Dhaka,20-29,Man,Bachelors,Student,4-6,Desktop,<2 yr,1,1.0,Y,Y,Y,0,0,1,0,0,0
+183,Khulna,20-29,Woman,Bachelors,Student,3-4,Smartphone,<4 yr,1,2.0,Y,Y,Y,0,0,1,0,0,0
+184,Dhaka,30-39,Man,Bachelors,Technical Works,3-4,Laptop,<1 yr,1,5.0,Y,Y,Y,0,0,1,0,0,0
+185,Sylhet,20-29,Man,Bachelors,Student,4-6,Smartphone,<2 yr,1,1.0,N,N,N,0,0,1,0,0,0
+186,Sylhet,20-29,Man,High School,Student,3-4,Smartphone,<1 yr,1,5.0,N,Y,N,1,0,1,0,0,0
+187,Sylhet,20-29,Man,Bachelors,Student,3-4,Smartphone,<6 mn,1,2.0,N,N,N,0,0,1,0,0,0
+188,Sylhet,20-29,Man,Bachelors,Student,1-2,Smartphone,<1 yr,2,5.0,N,N,N,0,0,1,0,0,0
+189,Sylhet,20-29,Woman,Bachelors,Student,3-4,Smartphone,<1 yr,1,3.0,N,N,N,0,0,1,0,0,0
+190,Chittagong,20-29,Woman,Masters,Unemployed,3-4,Smartphone,<2 yr,1,5.0,Y,N,N,0,0,0,0,1,1
+191,Sylhet,20-29,Man,Bachelors,Student,3-4,Smartphone,<1 yr,1,4.0,Y,Y,N,0,1,0,0,0,0
+192,Sylhet,20-29,Man,Bachelors,Student,6-8,Smartphone,<1 yr,1,2.0,N,N,N,0,0,1,0,0,0
+193,Sylhet,20-29,Woman,Bachelors,Student,3-4,Smartphone,<2 yr,1,5.0,N,Y,N,0,1,1,0,0,0
+194,Sylhet,20-29,Man,High School,Student,8-10,Smartphone,<2 yr,1,1.0,N,Y,Y,1,0,0,0,0,1
+195,Chittagong,20-29,Man,High School,Student,3-4,Smartphone,<1 yr,1,1.0,N,N,N,0,0,1,0,0,0
+196,Sylhet,20-29,Man,High School,Student,3-4,Smartphone,<1 yr,1,4.0,N,N,N,0,0,0,1,1,0
+197,Sylhet,20-29,Woman,High School,Student,1-2,Featurephone,<6 mn,1,5.0,Y,Y,Y,1,0,0,0,0,0
+198,Sylhet,20-29,Woman,Bachelors,Student,3-4,Featurephone,<4 yr,1,5.0,Y,N,N,1,0,0,0,0,0
+199,Sylhet,20-29,Man,Bachelors,Student,3-4,Smartphone,<2 yr,1,5.0,N,N,N,0,1,1,0,0,1
+200,Sylhet,20-29,Man,High School,Student,12-,Laptop,<2 yr,1,5.0,Y,Y,Y,1,1,0,0,1,1
+201,Dhaka,20-29,Woman,High School,Student,3-4,Desktop,<2 yr,3,2.0,N,N,N,0,0,1,0,0,0
+202,Sylhet,20-29,Man,High School,Student,4-6,Smartphone,<6 mn,1,2.0,Y,Y,Y,0,0,1,0,0,0
+203,Sylhet,20-29,Woman,High School,Student,4-6,Smartphone,<6 mn,1,1.0,Y,Y,N,1,0,0,0,0,0
+204,Sylhet,20-29,Man,Bachelors,Student,3-4,Smartphone,<1 yr,1,4.0,N,Y,Y,0,1,0,0,0,1
+205,Sylhet,20-29,Man,Bachelors,Student,4-6,Smartphone,<2 yr,1,2.0,N,N,N,0,0,1,0,0,0
+206,Dhaka,20-29,Man,Bachelors,Student,3-4,Desktop,<4 yr,1,5.0,N,N,N,0,1,0,0,0,0
+207,Rajshahi,30-39,Man,Masters,Student,3-4,Smartphone,<4 yr,1,5.0,Y,N,Y,0,1,1,0,0,1
+208,Sylhet,20-29,Man,High School,Student,3-4,Smartphone,<2 yr,1,5.0,N,N,Y,1,1,0,0,0,1
+209,Sylhet,20-29,Man,Bachelors,Student,4-6,Smartphone,<1 yr,1,5.0,N,Y,Y,0,0,1,0,0,0
+210,Sylhet,20-29,Woman,Bachelors,Unemployed,3-4,Smartphone,<2 yr,1,2.0,Y,N,N,0,1,1,0,0,1
+211,Sylhet,20-29,Man,High School,Student,3-4,Smartphone,<6 mn,1,1.0,Y,Y,Y,0,0,1,0,0,0
+212,Sylhet,20-29,Woman,Masters,Student,1-2,Smartphone,<4 yr,1,2.0,N,Y,Y,0,0,1,0,0,0
+213,Sylhet,20-29,Man,High School,Student,3-4,Smartphone,<6 mn,1,1.0,Y,Y,Y,0,0,1,0,0,0
+214,Sylhet,20-29,Woman,Bachelors,Student,3-4,Smartphone,<4 yr,1,5.0,N,N,N,0,0,1,0,1,1
+215,Sylhet,30-39,Woman,Masters,Teacher,4-6,Smartphone,<6 mn,1,1.0,Y,N,N,0,1,1,0,0,0
+216,Sylhet,20-29,Man,High School,Student,4-6,Desktop,<2 yr,1,5.0,N,N,N,0,1,0,0,1,0
+217,Sylhet,20-29,Man,High School,Student,4-6,Smartphone,<1 mn,6,1.0,Y,N,N,0,0,0,1,0,0
+218,Chittagong,20-29,Man,Bachelors,Student,1-2,Smartphone,<6 mn,1,4.0,Y,N,N,1,0,0,0,0,0
+219,Sylhet,20-29,Man,Bachelors,Student,4-6,Tablet,<1 yr,3,5.0,Y,N,N,0,0,0,0,1,0
+220,Sylhet,20-29,Man,Bachelors,Student,3-4,Laptop,<4 yr,1,5.0,Y,N,N,0,0,1,0,0,0
+221,Dhaka,1-19,Man,High School,Student,3-4,Smartphone,<1 yr,1,4.0,N,Y,N,0,0,0,0,0,0
+222,Sylhet,20-29,Man,Bachelors,Student,4-6,Smartphone,<2 yr,1,5.0,N,Y,Y,0,0,1,0,0,0
+223,Sylhet,20-29,Man,Bachelors,Student,12-,Laptop,<6 mn,3,1.0,N,Y,Y,0,0,1,0,0,0
+224,Sylhet,20-29,Man,High School,Student,4-6,Smartphone,<6 mn,1,5.0,Y,Y,Y,1,1,0,0,1,1
+225,Sylhet,20-29,Man,Bachelors,Student,3-4,Smartphone,<2 yr,1,5.0,Y,N,N,0,1,0,0,0,0
+226,Dhaka,20-29,Man,Bachelors,Student,4-6,Smartphone,<6 mn,1,5.0,N,N,Y,1,0,0,0,0,0
+227,Sylhet,20-29,Man,High School,Student,6-8,Smartphone,<1 yr,6,1.0,N,Y,Y,0,0,0,1,0,0
+228,Dhaka,20-29,Man,Bachelors,Student,4-6,Smartphone,<1 yr,1,2.0,N,N,N,0,0,1,0,0,0
+229,Dhaka,20-29,Man,Bachelors,Student,6-8,Smartphone,<6 mn,3,5.0,Y,Y,N,1,1,0,0,0,1
+230,Sylhet,20-29,Man,Bachelors,Job,3-4,Smartphone,<2 yr,6,1.0,N,N,Y,0,0,0,1,0,0
+231,Sylhet,20-29,Man,High School,Student,4-6,Smartphone,<1 mn,3,5.0,N,N,Y,0,1,0,0,0,0
+232,Dhaka,20-29,Man,Bachelors,Technical Works,3-4,Laptop,<1 yr,7,4.0,N,Y,N,1,0,0,0,0,0
+233,Khulna,1-19,Man,High School,Student,1-2,Featurephone,<4 yr,1,5.0,Y,Y,Y,0,0,1,0,0,0
+234,Sylhet,20-29,Woman,High School,Student,1-2,Smartphone,<2 yr,1,3.0,N,N,N,0,1,0,0,0,0
+235,Sylhet,20-29,Man,Masters,Technical Works,8-10,Laptop,<6 mn,1,5.0,Y,Y,Y,0,0,1,0,0,0
+236,Mymensingh,20-29,Man,Bachelors,Student,1-2,Smartphone,<4 yr,1,5.0,N,Y,Y,1,1,0,0,0,0
+237,Chittagong,30-39,Man,Bachelors,Doctor,8-10,Smartphone,<6 mn,3,5.0,Y,N,N,0,0,1,0,1,1
+238,Dhaka,20-29,Man,Bachelors,Unemployed,4-6,Laptop,<2 yr,1,5.0,N,N,N,1,0,0,0,0,1
+239,Dhaka,20-29,Man,Masters,Teacher,8-10,Smartphone,<1 yr,1,5.0,Y,N,N,0,1,1,0,0,0
+240,Dhaka,20-29,Man,Bachelors,Student,1-2,Desktop,>4 yr,1,5.0,Y,Y,Y,0,0,1,0,0,1
+241,Dhaka,20-29,Man,High School,Student,1-2,Featurephone,<2 yr,1,4.0,N,N,N,0,0,1,0,0,0
+242,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<6 mn,1,2.0,Y,N,N,0,0,1,0,0,0
+243,Dhaka,20-29,Man,High School,Student,3-4,Featurephone,<2 yr,1,1.0,N,N,N,1,1,0,0,0,0
+244,Sylhet,20-29,Woman,Masters,Unemployed,1-2,Smartphone,<6 mn,1,4.0,Y,Y,Y,0,0,1,0,0,0
+245,Sylhet,20-29,Man,Bachelors,Student,3-4,Smartphone,<1 yr,1,2.0,N,Y,N,0,0,1,0,0,0
+246,Dhaka,20-29,Woman,Bachelors,Teacher,3-4,Laptop,<4 yr,1,4.0,N,N,N,0,0,0,0,0,1
+247,Chittagong,20-29,Woman,High School,Student,3-4,Smartphone,<4 yr,1,2.0,N,N,Y,0,0,1,0,0,0
+248,Chittagong,20-29,Man,Masters,Unemployed,6-8,Smartphone,<4 yr,2,5.0,Y,Y,N,0,0,0,1,0,0
+249,Chittagong,20-29,Man,Bachelors,Student,1-2,Desktop,>4 yr,1,1.0,Y,N,N,0,0,1,0,0,0
+250,Chittagong,20-29,Woman,Bachelors,Student,3-4,Laptop,<6 mn,1,1.0,N,N,Y,0,0,1,0,0,0
+251,Chittagong,20-29,Woman,Bachelors,Student,1-2,Smartphone,<4 yr,1,5.0,Y,Y,Y,1,1,0,0,1,1
+252,Dhaka,20-29,Man,Bachelors,Unemployed,3-4,Smartphone,<4 yr,1,5.0,N,N,N,1,0,1,0,0,0
+253,Rajshahi,20-29,Man,Bachelors,Student,4-6,Smartphone,<2 yr,1,5.0,Y,Y,N,1,0,0,0,0,0
+254,Chittagong,20-29,Man,Masters,Unemployed,3-4,Smartphone,<2 yr,1,3.0,N,N,N,0,0,1,0,0,0
+255,Rajshahi,20-29,Man,Bachelors,Student,1-2,Smartphone,<2 yr,1,1.0,Y,Y,N,0,0,1,0,0,0
+256,Sylhet,20-29,Man,High School,Student,3-4,Desktop,<4 yr,1,1.0,Y,Y,N,0,1,1,0,0,0
+257,Chittagong,20-29,Man,High School,Student,6-8,Smartphone,<6 mn,3,5.0,N,Y,Y,0,1,0,0,0,0
+258,Dhaka,20-29,Woman,Bachelors,Student,3-4,Laptop,<1 yr,1,5.0,N,Y,Y,0,0,0,0,0,1
+259,Rajshahi,20-29,Man,High School,Student,4-6,Smartphone,<6 mn,1,5.0,Y,Y,N,0,0,1,0,0,0
+260,Chittagong,20-29,Man,High School,Student,3-4,Smartphone,<2 yr,7,5.0,N,Y,N,0,0,0,0,0,1
+261,Dhaka,20-29,Man,Bachelors,Technical Works,3-4,Featurephone,<1 yr,3,4.0,N,N,N,0,0,0,0,1,1
+262,Dhaka,20-29,Woman,Bachelors,Student,1-2,Featurephone,>4 yr,1,5.0,N,N,Y,0,0,0,0,1,0
+263,Chittagong,20-29,Man,High School,Student,3-4,Smartphone,<2 yr,1,4.0,Y,N,N,1,1,1,0,1,1
+264,Khulna,20-29,Man,Bachelors,Student,4-6,Smartphone,<2 yr,1,1.0,N,N,Y,0,0,1,0,0,0
+265,Sylhet,20-29,Man,Bachelors,Student,4-6,Smartphone,<1 yr,1,2.0,Y,Y,N,0,0,1,1,0,0
+266,Dhaka,30-39,Man,Masters,Business,10-12,Smartphone,<6 mn,1,5.0,N,N,Y,0,0,1,0,0,1
+267,Dhaka,20-29,Man,Masters,Unemployed,6-8,Smartphone,<1 yr,1,1.0,N,N,Y,0,0,1,0,0,0
+268,Dhaka,20-29,Man,Bachelors,Student,4-6,Smartphone,<2 yr,1,4.0,N,N,N,1,0,1,0,0,1
+269,Khulna,20-29,Man,High School,Student,4-6,Smartphone,<6 mn,1,5.0,N,N,Y,1,1,1,0,0,0
+270,Khulna,20-29,Man,High School,Student,3-4,Featurephone,>4 yr,1,4.0,Y,N,N,1,0,0,0,0,0
+271,Khulna,20-29,Man,High School,Student,3-4,Featurephone,>4 yr,1,4.0,Y,N,N,1,0,0,0,0,0
+272,Sylhet,20-29,Man,Bachelors,Student,4-6,Smartphone,<4 yr,1,1.0,Y,Y,N,0,0,1,0,0,0
+273,Mymensingh,20-29,Woman,Bachelors,Student,3-4,Smartphone,<6 mn,1,4.0,N,N,N,1,0,0,0,0,0
+274,Mymensingh,20-29,Woman,Bachelors,Student,1-2,Smartphone,<2 yr,2,1.0,N,N,N,0,1,0,0,0,0
+275,Dhaka,30-39,Woman,Masters,Doctor,3-4,Laptop,<2 yr,3,5.0,N,Y,Y,0,0,1,0,0,0
+276,Chittagong,30-39,Man,Bachelors,Job,4-6,Smartphone,<1 yr,1,5.0,Y,N,Y,0,1,0,0,1,1
+277,Dhaka,20-29,Man,Bachelors,Student,8-10,Smartphone,<1 mn,1,5.0,Y,N,N,0,0,1,0,0,0
+278,Chittagong,20-29,Man,High School,Student,3-4,Smartphone,<6 mn,1,1.0,Y,Y,Y,1,1,0,0,0,0
+279,Dhaka,20-29,Man,Bachelors,Teacher,6-8,Featurephone,<4 yr,1,1.0,Y,Y,N,0,1,1,0,0,0
+280,Mymensingh,20-29,Man,High School,Student,8-10,Smartphone,<6 mn,1,1.0,Y,N,N,1,0,1,0,0,0
+281,Dhaka,30-39,Man,Masters,Teacher,3-4,Smartphone,<4 yr,3,5.0,N,N,Y,0,1,1,0,0,0
+282,Dhaka,30-39,Man,Masters,Teacher,6-8,Laptop,<1 yr,4,5.0,Y,Y,Y,0,0,1,0,0,0
+283,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<4 yr,3,1.0,N,N,N,0,1,0,0,0,0
+284,Dhaka,20-29,Man,High School,Student,12-,Laptop,<1 mn,1,1.0,N,N,N,0,1,1,0,0,1
+285,Dhaka,20-29,Man,High School,Student,1-2,Smartphone,<1 mn,1,1.0,Y,Y,N,0,0,1,0,0,0
+286,Dhaka,30-39,Man,Bachelors,Unemployed,3-4,Laptop,<2 yr,1,1.0,Y,Y,Y,0,0,1,0,0,0
+287,Rongpur,20-29,Woman,High School,Student,3-4,Desktop,<4 yr,1,3.0,N,Y,Y,1,0,0,0,0,0
+288,Rongpur,20-29,Woman,Bachelors,Student,3-4,Featurephone,<4 yr,1,5.0,Y,Y,Y,0,0,0,0,1,0
+289,Rongpur,20-29,Woman,Bachelors,Student,4-6,Featurephone,<1 yr,1,5.0,Y,Y,Y,0,0,1,0,0,0
+290,Rongpur,20-29,Man,Bachelors,Student,12-,Smartphone,<1 mn,1,2.0,Y,Y,N,1,0,1,0,0,1
+291,Mymensingh,20-29,Woman,Bachelors,Student,3-4,Smartphone,<2 yr,1,1.0,N,N,N,0,0,0,0,0,1
+292,Rongpur,20-29,Man,Bachelors,Student,6-8,Smartphone,<6 mn,6,1.0,Y,Y,N,0,0,0,1,0,0
+293,Rongpur,20-29,Man,Bachelors,Student,3-4,Smartphone,<6 mn,1,1.0,N,Y,Y,0,0,1,0,0,0
+294,Rongpur,20-29,Woman,Bachelors,Student,1-2,Smartphone,<1 mn,,,N,Y,Y,0,0,0,0,0,0
+295,Rongpur,20-29,Woman,High School,Student,3-4,Desktop,<6 mn,1,4.0,N,N,N,0,0,0,0,0,1
+296,Rongpur,20-29,Woman,Masters,Homemaking,12-,Laptop,<6 mn,1,1.0,N,N,N,0,0,0,0,0,0
+297,Dhaka,20-29,Woman,High School,Student,3-4,Desktop,<1 yr,4,5.0,Y,N,Y,1,1,1,0,1,1
+298,Chittagong,20-29,Man,High School,Student,1-2,Smartphone,<4 yr,6,1.0,Y,Y,Y,0,0,0,1,0,0
+299,Chittagong,20-29,Man,High School,Student,4-6,Smartphone,<2 yr,1,5.0,N,N,Y,0,0,1,0,0,0
+300,Dhaka,20-29,Man,High School,Student,4-6,Featurephone,<2 yr,1,5.0,N,N,N,1,1,1,0,1,1
+301,Rongpur,30-39,Woman,Masters,Teacher,3-4,Smartphone,<1 mn,1,5.0,N,N,Y,0,0,1,0,0,0
+302,Rongpur,20-29,Man,Bachelors,Student,4-6,Smartphone,<2 yr,1,1.0,Y,Y,Y,0,0,1,0,0,0
+303,Rongpur,20-29,Woman,Bachelors,Student,4-6,Smartphone,<1 yr,2,5.0,N,N,N,0,0,1,0,0,0
+304,Rongpur,20-29,Man,Bachelors,Student,6-8,Smartphone,<1 yr,1,5.0,N,Y,Y,0,1,0,0,0,1
+305,Rongpur,20-29,Woman,Masters,Teacher,4-6,Smartphone,<2 yr,1,2.0,Y,N,N,0,0,1,0,0,0
+306,Rongpur,20-29,Man,Bachelors,Student,3-4,Smartphone,<1 yr,1,5.0,Y,Y,Y,0,0,1,0,0,0
+307,Rongpur,20-29,Woman,Bachelors,Student,3-4,Smartphone,<2 yr,6,1.0,N,N,Y,0,0,0,1,0,0
+308,Dhaka,20-29,Man,High School,Labor,3-4,Smartphone,<2 yr,,1.0,Y,Y,Y,0,0,0,1,0,0
+309,Rongpur,20-29,Man,Bachelors,Student,3-4,Smartphone,<2 yr,1,1.0,Y,Y,Y,0,0,1,0,0,1
+310,Rongpur,20-29,Woman,Bachelors,Student,1-2,Featurephone,>4 yr,6,1.0,N,Y,Y,0,0,0,1,0,0
+311,Rongpur,20-29,Woman,Bachelors,Student,3-4,Smartphone,<2 yr,6,1.0,Y,Y,Y,0,0,0,1,0,0
+312,Rongpur,20-29,Woman,Bachelors,Student,1-2,Smartphone,<4 yr,1,2.0,Y,Y,Y,0,0,1,0,0,0
+313,Rongpur,20-29,Woman,Bachelors,Student,1-2,Smartphone,<2 yr,1,5.0,Y,Y,Y,1,1,0,0,1,0
+314,Rongpur,20-29,Man,High School,Student,1-2,Smartphone,<2 yr,1,2.0,Y,Y,Y,1,0,0,0,0,1
+315,Rongpur,20-29,Woman,Bachelors,Student,4-6,Smartphone,<2 yr,1,2.0,N,Y,Y,1,1,1,1,0,0
+316,Rongpur,20-29,Man,Bachelors,Student,6-8,Smartphone,<2 yr,1,5.0,Y,Y,Y,0,1,0,1,0,0
+317,Rongpur,20-29,Man,Bachelors,Student,6-8,Smartphone,<2 yr,1,5.0,Y,Y,Y,0,1,0,1,0,0
+318,Rongpur,20-29,Woman,Bachelors,Student,1-2,Smartphone,<2 yr,1,5.0,Y,N,N,0,0,1,0,0,0
+319,Rajshahi,20-29,Man,Bachelors,Student,4-6,Smartphone,<1 yr,1,5.0,Y,Y,N,0,0,0,0,0,1
+320,Rongpur,30-39,Woman,Masters,Teacher,6-8,Laptop,<2 yr,1,2.0,Y,N,Y,0,0,1,0,0,0
+321,Rongpur,20-29,Man,Bachelors,Student,4-6,Smartphone,<2 yr,6,1.0,Y,Y,Y,0,0,0,1,0,0
+322,Chittagong,20-29,Man,Bachelors,Student,3-4,Smartphone,<4 yr,,2.0,Y,N,N,0,0,0,1,0,0
+323,Rongpur,20-29,Man,High School,Student,0,Smartphone,<2 yr,1,5.0,Y,N,N,1,1,1,0,1,1
+324,Rongpur,20-29,Man,High School,Student,3-4,Smartphone,<1 yr,1,5.0,Y,Y,Y,0,1,0,0,0,1
+325,Rongpur,20-29,Man,Bachelors,Student,1-2,Featurephone,>4 yr,1,5.0,N,N,N,0,0,1,0,0,0
+326,Mymensingh,30-39,Man,SSC,Business,4-6,Smartphone,<1 mn,1,5.0,N,N,Y,0,1,0,0,1,1
+327,Rongpur,30-39,Man,Masters,Teacher,1-2,Laptop,<2 yr,1,1.0,Y,N,N,0,0,1,0,0,0
+328,Rongpur,20-29,Woman,Bachelors,Student,4-6,Smartphone,<2 yr,1,2.0,N,Y,Y,1,0,1,1,0,0
+329,Rongpur,20-29,Woman,Bachelors,Student,3-4,Smartphone,<1 yr,1,2.0,Y,N,N,0,0,1,0,0,0
+330,Barisal,30-39,Man,Bachelors,Job,4-6,Smartphone,<4 yr,1,5.0,N,Y,Y,1,1,0,0,0,0
+331,Dhaka,30-39,Man,Masters,Job,1-2,Smartphone,<4 yr,1,1.0,Y,Y,N,0,0,1,0,0,0
+332,Barisal,20-29,Man,Bachelors,Student,3-4,Smartphone,<1 yr,3,4.0,Y,Y,Y,0,0,1,0,0,0
+333,Barisal,20-29,Man,Bachelors,Student,3-4,Desktop,<4 yr,1,1.0,Y,N,N,0,0,1,0,0,0
+334,Barisal,20-29,Man,SSC,Student,1-2,Smartphone,<1 yr,1,1.0,N,N,N,1,0,0,0,0,0
+335,Barisal,30-39,Man,Masters,Job,1-2,Smartphone,<4 yr,1,2.0,Y,Y,Y,0,0,1,0,0,0
+336,Barisal,20-29,Man,Bachelors,Student,1-2,Tablet,<1 mn,,,Y,N,N,0,0,0,1,0,0
+337,Dhaka,20-29,Man,High School,Student,4-6,Smartphone,<1 yr,3,4.0,Y,N,Y,0,0,1,0,0,0
+338,Barisal,1-19,Man,SSC,Student,3-4,Smartphone,<1 yr,4,5.0,Y,Y,Y,0,0,1,0,0,0
+339,Barisal,20-29,Man,Bachelors,Teacher,8-10,Smartphone,<6 mn,1,2.0,Y,Y,Y,0,0,1,0,0,0
+340,Barisal,20-29,Man,Masters,Job,3-4,Smartphone,<1 yr,1,4.0,N,N,Y,1,0,0,0,0,0
+341,Dhaka,20-29,Man,Bachelors,Student,4-6,Smartphone,<6 mn,1,5.0,N,N,N,0,0,1,0,0,0
+342,Barisal,20-29,Man,Bachelors,Student,12-,Smartphone,<6 mn,1,5.0,Y,Y,N,0,0,1,0,0,0
+343,Barisal,20-29,Man,Bachelors,Student,10-12,Smartphone,<6 mn,1,5.0,Y,Y,N,0,0,1,0,0,0
+344,Barisal,1-19,Man,SSC,Student,0,Smartphone,>4 yr,3,5.0,N,N,Y,0,1,1,0,0,1
+345,Barisal,20-29,Man,High School,Student,1-2,Smartphone,<6 mn,1,5.0,Y,N,N,0,0,1,0,0,1
+346,Dhaka,20-29,Woman,Bachelors,Student,3-4,Desktop,<4 yr,1,3.0,Y,Y,N,1,1,0,0,0,1
+347,Dhaka,20-29,Man,Bachelors,Student,4-6,Smartphone,<1 mn,3,5.0,Y,N,N,1,0,0,0,0,0
+348,Dhaka,20-29,Man,Bachelors,Student,3-4,Smartphone,<4 yr,1,1.0,N,Y,N,0,0,1,0,0,0
+349,Dhaka,20-29,Man,Masters,Job,4-6,Smartphone,<6 mn,3,4.0,Y,N,N,0,0,0,0,0,1
+350,Mymensingh,20-29,Man,High School,Student,3-4,Smartphone,<4 yr,1,4.0,N,N,Y,1,1,0,0,0,1
