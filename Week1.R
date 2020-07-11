@@ -198,6 +198,7 @@ mutation_df <- function(df) {
   
   df$did_with_data <- as.factor(df$did_with_data)
   df$did_with_device <- as.factor(df$did_with_device)
+
  return(df)
 }
 
@@ -223,7 +224,8 @@ create_code <- function(df) {
   contrasts(df$age) <- contr.sum(length(unique(df$age)))
   contrasts(df$age) <- contr.sum(length(unique(df$age)))
   contrasts(df$last_dumped_device) <- contr.sum(length(unique(df$last_dumped_device)))
-  # contrasts(df$dump_within) <- contr.sum(length(unique(df$dump_within)))
+  contrasts(df$dump_within) <- contr.helmert(length(unique(df$dump_within)))
+  
   
   
   return(df)
