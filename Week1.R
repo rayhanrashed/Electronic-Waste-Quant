@@ -186,12 +186,18 @@ mutation_df <- function(df) {
   df$edu <- factor(df$edu,
                    levels = c("SSC","High School", "Bachelors","Masters","PhD"))
   
+
+  
+  
+  #########checking-improving stepwise
+  df$did_with_data[df$did_with_data<=2]<-1 
+  df$did_with_data[df$did_with_data>=3]<-2
+  df$did_with_device[df$did_with_device<=2]<-1
+  df$did_with_device[df$did_with_device>=3]<-2
+  #df$did_with_data <- factor()
+  
+  df$did_with_data <- as.factor(df$did_with_data)
   df$did_with_device <- as.factor(df$did_with_device)
-  df$did_with_data <- as.factor(df$did_with_data)  
-  
-  
-  #########checking
-  
  return(df)
 }
 
@@ -234,12 +240,6 @@ pack <- function(df) {
 
 df <- pack(df)
 
-##issues: Dhaka-Non Dhaka???
-
-# i=2
-# model <- glm(miss_dev~df[,i+1],data = df,family = "binomial")
-# summary(model)
-df <- pack(df)
 for (v in colnames(df)) {
   print(v)
   
@@ -254,13 +254,12 @@ for (v in colnames(df)) {
 c("X","age.sum","division.sum")
 view(df)
 df[!complete.cases(df),]
-df <- df[, - c("X","age.sum","division.sum")]
 library(MASS)
 full.model <- glm(miss_dev ~.-X, data = df, family = binomial)
 #full.model <- update(full.model,~.)
 # full.model <- update(full.model,~.-X-age-division)
 full.model %>% summary()
-forwardm <- step(full.model,direction = "backward",trace = 2)
+forwardm <- step(full.model,direction = "backward",trace = 4)
 
 
 
