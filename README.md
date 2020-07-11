@@ -43,7 +43,7 @@ Final Fitted Model:
 
 ***dump_reason_X/Y/Z*** - reason (theft/break/slow) and whether the device is being missed. The order is important. Theft indicates, the device is still probably being used (just in the state the user was using that). This has the highest log-odd among reasons *(1.1)*. Then comes device broken unfortunately/somehow. Although, the device is not usable, the device is unusable [suddenly from a usable state]. This has a lower odd ration than ***theft***. Which can be explained because the utility was diminished not by some random thief, but the owner. So, although, odd ratio is *>1*, it is not as much as theft. Finally, when the device has grown slow/unusable, the device is still being missed, *significantly*, but the odd ration is the lowest in the lot.
 
-
+***Initial Regression Before Running Backward Stepwise Method***
 ```
 Call:
 glm(formula = miss_dev ~ . - X, family = binomial, data = df)
