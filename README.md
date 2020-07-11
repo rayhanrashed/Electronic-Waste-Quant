@@ -2,7 +2,7 @@
 
 
 *Regression Coefficients for Logistic Regression Models for predicting whether people miss their devices, based on other variables*
-
+```
 Coefficients:
                   Estimate Std. Error z value Pr(>|z|)    
 (Intercept)       -1.22237    0.26395  -4.631 3.64e-06 ***
@@ -17,14 +17,14 @@ dump_reason_break  1.02806    0.25616   4.013 5.99e-05 ***
 dump_reason_theft  1.11285    0.47485   2.344  0.01910 *  
 dump_reason_slow   0.90000    0.38924   2.312  0.02077 *  
 ---
-Signif. codes:  0 ‘(***)’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+    Signif. codes:  0 ‘(***)’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-(Dispersion parameter for binomial family taken to be 1)
+    (Dispersion parameter for binomial family taken to be 1)
 
     Null deviance: 485.33  on 350  degrees of freedom
-Residual deviance: 415.57  on 340  degrees of freedom
-AIC: 437.57
-
+    Residual deviance: 415.57  on 340  degrees of freedom
+    AIC: 437.57
+```
 Final Fitted Model:
 
 Description of Variables:
