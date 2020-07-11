@@ -190,6 +190,8 @@ mutation_df <- function(df) {
   df$did_with_data <- as.factor(df$did_with_data)  
   
   
+  #########checking
+  
  return(df)
 }
 
@@ -208,11 +210,15 @@ rename_df <- function(df) {
 }
 
 create_code <- function(df) {
-  df$division.sum <- df$division
-  contrasts(df$division.sum) <- contr.helmert(8)
+#  df$division.sum <- df$division
+  contrasts(df$division) <- contr.sum(length(unique(df$division)))
   
-  df$age.sum <- df$age
-  contrasts(df$age.sum) <- contr.sum(length(unique(df$age.sum)))
+  #df$age.sum <- df$age
+  contrasts(df$age) <- contr.sum(length(unique(df$age)))
+  contrasts(df$age) <- contr.sum(length(unique(df$age)))
+  contrasts(df$last_dumped_device) <- contr.sum(length(unique(df$last_dumped_device)))
+  # contrasts(df$dump_within) <- contr.sum(length(unique(df$dump_within)))
+  
   
   return(df)
 }
@@ -245,14 +251,17 @@ for (v in colnames(df)) {
   print(summary(model))
   
 }
+c("X","age.sum","division.sum")
 view(df)
 df[!complete.cases(df),]
+df <- df[, - c("X","age.sum","division.sum")]
+library(MASS)
+full.model <- glm(miss_dev ~.-X, data = df, family = binomial)
+#full.model <- update(full.model,~.)
+# full.model <- update(full.model,~.-X-age-division)
+full.model %>% summary()
+forwardm <- step(full.model,direction = "backward",trace = 2)
 
 
 
-print(cbind(1,I(1,4)))
-print(contr.sum(4))
-print(contr.sum(3)/)
-print(ginv(contr.sum(3)/2))
-ginv(contr.treatment(4))
-contr.
+forwardm %>% summary()
