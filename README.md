@@ -39,7 +39,7 @@ Final Fitted Model:
 ***did_with_device_Y*** - whether the device is (kept home/dustbin) vs (sold/parts sold/sold to recycler). So, whether any economic or non-economic activity. Simple binary variable. With $p<0.1$ predicts that if economic activity was done, then device is $43%$ less likely to be missed later (log odd -0.55)
 
 
-***memory_with_device*** - whether the participant could write a memory with the device s/he used. This was a qualitative field. Ability to writing a memory with the device increases the odd of missing device $326% (log odd 1.45)$.
+***memory_with_device*** - whether the participant could write a memory with the device s/he used. This was a qualitative field. Ability to writing a memory with the device increases the odd of missing device $ \math{326% (log odd 1.45)}$.
 
 ***dump_reason_X/Y/Z*** - reason (theft/break/slow) and whether the device is being missed. The order is important. Theft indicates, the device is still probably being used (just in the state the user was using that). This has the highest log-odd among reasons $(1.1)$. Then comes device broken unfortunately/somehow. Although, the device is not usable, the device is unusable [suddenly from a usable state]. This has a lower odd ration than ***theft***. Which can be explained because the utility was diminished not by some random thief, but the owner. So, although, odd ratio is $>1$, it is not as much as theft. Finally, when the device has grown slow/unusable, the device is still being missed, *significantly*, but the odd ration is the lowest in the lot.
 
