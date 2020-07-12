@@ -200,7 +200,7 @@
 197,Sylhet,20-29,Woman,High School,Student,1-2,Featurephone,<6 mn,1,1,5.0,Y,Y,Y,"1, 4, 6","Featurephone, Laptop",2,"5, 6, 7",3,"2, 3, 4, 5, 6",NC,"Featurephone, Desktop","1, 2",Y,"3, 5"
 198,Sylhet,20-29,Woman,Bachelors,Student,3-4,Featurephone,<4 yr,1,1,5.0,Y,N,N,1,Desktop,1,5,"4, 7","2, 3, 4, 5, 6",NC,Featurephone,1,Y,"3, 4"
 199,Sylhet,20-29,Man,Bachelors,Student,3-4,Smartphone,<2 yr,"2, 3, 6",1,5.0,N,N,N,"1, 4",Smartphone,"2, 3",6,"3, 4",1,Y,Nothing,,Y,2
-200,Sylhet,20-29,Man,High School,Student,12-,Laptop,<2 yr,"1, 2, 5, 6",1,5.0,Y,Y,Y,"1, 4","Smartphone, Featurephone, Laptop",3,5,1,"4, 5, 6",Y,Nothing,"1, 4",    ,"1, 2, 5"
+200,Sylhet,20-29,Man,High School,Student,12-,Laptop,<2 yr,"1, 2, 5, 6",1,5.0,Y,Y,Y,"1, 4","Smartphone, Featurephone, Laptop",3,5,1,"4, 5, 6",Y,Nothing,"1, 4",N,"1, 2, 5"
 201,Dhaka,20-29,Woman,High School,Student,3-4,Desktop,<2 yr,3,3,2.0,N,N,N,1,"Smartphone, Desktop",1,"4, 5, 6","3, 4, 7","2, 5, 6",NC,"Smartphone, Desktop","3, 4, 5",,
 202,Sylhet,20-29,Man,High School,Student,4-6,Smartphone,<6 mn,3,1,2.0,Y,Y,Y,1,Smartphone,2,"5, 6, 7","2, 3, 4, 7","1, 4, 6",Y,Nothing,"1, 2, 4",N,2
 203,Sylhet,20-29,Woman,High School,Student,4-6,Smartphone,<6 mn,1,1,1.0,Y,Y,N,4,Smartphone,3,5,"1, 2","2, 3, 4, 6",N,Nothing,1,N,"1, 2"

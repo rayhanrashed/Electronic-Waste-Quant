@@ -231,16 +231,17 @@ create_code <- function(df) {
   return(df)
 }
 
-pack <- function(df) {
+pack <- function(filename) {
   setwd("/Users/MBP/Documents/ElectronicWaste/")
-  df=read.csv("missing_regression.csv",stringsAsFactors = T)
+  df=read.csv(filename,stringsAsFactors = T)
+  #df=read.csv("temp.csv",stringsAsFactors = T)
   df <- mutation_df(df)
   df <- rename_df(df)
   df <- create_code(df)
   return(df)
 }
-
-df <- pack(df)
+filename="temp.csv"
+df <- pack(filename)
 
 for (v in colnames(df)) {
   print(v)
@@ -261,8 +262,52 @@ full.model <- glm(miss_dev ~.-X, data = df, family = binomial)
 #full.model <- update(full.model,~.)
 # full.model <- update(full.model,~.-X-age-division)
 full.model %>% summary()
-forwardm <- step(full.model,direction = "backward",trace = 4)
+backward.model <- step(full.model,direction = "backward",trace = 1)
 
 
 
-forwardm %>% summary()
+backward.model %>% summary()
+step_model <- backward.model
+
+
+full.model.2 <- update(full.model,~.+last_dumped_device:gender)
+full.model.2 %>% summary()
+
+step(full.model.2,direction = "backward",trace = 4) %>% summary()
+
+
+
+#####
+n <- nrow(df)
+trainingidx <- sample(1:n, 0.9 * n)
+train <- df[trainingidx,]
+test <- df[-trainingidx,]
+
+
+# null_model <- glm(miss_dev ~ 1, data = df,family = "binomial")
+# 
+# # Specify the full model using all of the potential predictors
+# full_model <- glm(miss_dev ~ .-X, data = df,family = "binomial")
+# 
+# # Use a forward stepwise algorithm to build a parsimonious model
+# step_model <- step(null_model, scope = list(lower = null_model, upper = full_model), direction = "forward")
+# step_model %>% summary()
+
+null_model <- glm(miss_dev ~ 1, data = train,family = "binomial")
+
+# Specify the full model using all of the potential predictors
+full_model <- glm(miss_dev ~ .-X, data = train,family = "binomial")
+
+# Use a forward stepwise algorithm to build a parsimonious model
+step_model <- step(null_model, scope = list(lower = null_model, upper = full_model), direction = "forward")
+step_model %>% summary()
+
+test$pred <- predict(step_model,test,type="response")
+test$real <- test$miss_dev
+
+train$pred <- predict(step_model,train,type="response")
+train$real <- train$miss_dev
+library(ROCR)
+plot.roc(test$real,test$pred, col = "red", main="ROC Validation set",
+         percent = TRUE, print.auc = TRUE)
+librarian::shelf(pROC)
