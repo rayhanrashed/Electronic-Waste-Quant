@@ -1,0 +1,170 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 glm(formula = repair_try ~ age + gender + edu + device_count_5_yr + \
+    dump_within + miss_dev + dump_reason_new + dump_reason_old + \
+    dump_reason_break + dump_reason_theft + dump_reason_slow + \
+    dump_reason_lag + slt_lack_tu + slt_lack_lang + slt_lack_notint + \
+    slt_lack_fear + slt_lack_parts + slt_lack_repairer + rpr_missing_trait_behave + \
+    rpr_missing_trait_ineff + rpr_missing_trait_harm + rpr_missing_trait_hard + \
+    rpr_missing_trait_wage + rpr_missing_trait_trust + rpr_missing_trait_gender + \
+    bad_rep_exp + dev_tknto_rec_Y + did_with_data_Y, family = binomial, \
+    data = df)\
+AIC: 435.46\
+\
+\
+After Stepwise:\
+glm(formula = repair_try ~ gender + device_count_5_yr + dump_within + \
+    slt_lack_tu + slt_lack_notint + slt_lack_fear + slt_lack_parts + \
+    slt_lack_repairer + rpr_missing_trait_trust + rpr_missing_trait_gender + \
+    dev_tknto_rec_Y, family = binomial, data = df)\
+\
+AIC: 409.59\
+\
+                         		Estimate Std. Error z value Pr(>|z|)   \
+(Intercept)                 -0.66138    0.41151  -1.607  0.10801   \
+genderWoman          -0.75988    0.28729  -2.645  0.00817 **\
+device_count_5_yr    0.12623    0.05508   2.292  0.02191 * \
+dump_within1           -0.43593    0.29706  -1.467  0.14224   \
+dump_within2           -0.24437    0.13324  -1.834  0.06664 . \
+dump_within3            0.02364    0.08118   0.291  0.77092   \
+dump_within4            0.11413    0.07616   1.499  0.13397   \
+dump_within5           -0.16321    0.11009  -1.483  0.13820   \
+slt_lack_tu                 0.87814    0.28190   3.115  0.00184 **\
+slt_lack_notint           -0.51113    0.30913  -1.653  0.09824 . \
+slt_lack_fear             -0.45589    0.26921  -1.693  0.09037 . \
+slt_lack_parts            0.57958    0.26049   2.225  0.02608 * \
+slt_lack_repairer        0.54217    0.30919   1.753  0.07952 . \
+rpr_missing_trust      0.53182    0.26695   1.992  0.04635 * \
+rpr_missing_gender  0.64798    0.45017   1.439  0.15004   \
+dev_tknto_rec_Y       0.67902    0.28569   2.377  0.01746 *\
+\
+\
+When included did_dev_econ:\
+\
+Coefficients:\
+                         Estimate Std. Error z value Pr(>|z|)    \
+(Intercept)              -1.74302    0.55335  -3.150 0.001633 ** \
+genderWoman              -0.93813    0.29934  -3.134 0.001724 ** \
+device_count_5_yr         0.13287    0.05782   2.298 0.021569 *  \
+dump_within1             -0.50111    0.30555  -1.640 0.100997    \
+dump_within2             -0.29626    0.13733  -2.157 0.030979 *  \
+dump_within3              0.03941    0.08462   0.466 0.641382    \
+dump_within4              0.10779    0.07846   1.374 0.169472    \
+dump_within5             -0.19639    0.12378  -1.587 0.112596    \
+dump_reason_old          -0.47951    0.32543  -1.473 0.140621    \
+dump_reason_break        -0.46583    0.28425  -1.639 0.101255    \
+slt_lack_tu               0.74116    0.29663   2.499 0.012467 *  \
+slt_lack_lang             0.62886    0.38097   1.651 0.098803 .  \
+slt_lack_fear            -0.39573    0.27478  -1.440 0.149812    \
+slt_lack_parts            0.65561    0.27342   2.398 0.016494 *  \
+slt_lack_repairer         0.58421    0.32298   1.809 0.070481 .  \
+rpr_missing_trait_trust   0.50474    0.27483   1.837 0.066275 .  \
+rpr_missing_trait_gender  0.73833    0.46614   1.584 0.113210    \
+dev_tknto_rec_Y           0.68656    0.29632   2.317 0.020504 *  \
+did_with_data_Y1          0.42899    0.28139   1.525 0.127382    \
+did_with_device_econ1     1.23972    0.34142   3.631 0.000282 ***\
+---\
+Signif. codes:  0 \'91***\'92 0.001 \'91**\'92 0.01 \'91*\'92 0.05 \'91.\'92 0.1 \'91 \'92 1\
+\
+(Dispersion parameter for binomial family taken to be 1)\
+\
+    Null deviance: 448.21  on 350  degrees of freedom\
+Residual deviance: 361.55  on 331  degrees of freedom\
+AIC: 401.55\
+\
+Call:\
+glm(formula = repair_try ~ gender + device_count_5_yr + dump_reason_break + \
+    slt_lack_tu + slt_lack_lang + slt_lack_fear + slt_lack_parts + \
+    slt_lack_repairer + rpr_missing_trait_trust + rpr_missing_trait_gender + \
+    dev_tknto_rec_Y + did_with_device_econ, family = binomial, \
+    data = df)\
+\
+Coefficients:\
+                         Estimate Std. Error z value Pr(>|z|)   \
+(Intercept)              -1.32845    0.48809  -2.722  0.00649 **\
+genderWoman              -0.84288    0.29013  -2.905  0.00367 **\
+device_count_5_yr         0.11302    0.05395   2.095  0.03620 * \
+dump_reason_break        -0.39783    0.26019  -1.529  0.12627   \
+slt_lack_tu               0.68582    0.28598   2.398  0.01648 * \
+slt_lack_lang             0.59525    0.36431   1.634  0.10227   \
+slt_lack_fear            -0.39295    0.26094  -1.506  0.13210   \
+slt_lack_parts            0.61898    0.25829   2.396  0.01655 * \
+slt_lack_repairer         0.61921    0.30429   2.035  0.04186 * \
+rpr_missing_trait_trust   0.44328    0.26611   1.666  0.09575 . \
+rpr_missing_trait_gender  0.62177    0.44433   1.399  0.16170   \
+dev_tknto_rec_Y           0.59281    0.28358   2.090  0.03658 * \
+did_with_device_econ1     1.03167    0.32281   3.196  0.00139 **\
+---\
+Signif. codes:  0 \'91***\'92 0.001 \'91**\'92 0.01 \'91*\'92 0.05 \'91.\'92 0.1 \'91 \'92 1\
+\
+(Dispersion parameter for binomial family taken to be 1)\
+\
+    Null deviance: 448.21  on 350  degrees of freedom\
+Residual deviance: 376.88  on 338  degrees of freedom\
+AIC: 402.88 \
+\
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+Full Model:\
+AIC: 437\
+Call:\
+glm(formula = repair_try ~ age + gender + edu + device_count_5_yr + \
+    miss_dev + dump_reason_new + dump_reason_old + dump_reason_break + \
+    dump_reason_theft + dump_reason_slow + dump_reason_lag + \
+    slt_lack_tu + slt_lack_lang + slt_lack_notint + slt_lack_fear + \
+    slt_lack_parts + slt_lack_repairer + rprd_usage_chlng_No + \
+    rprd_usage_chlng_reluc + rprd_usage_chlng_dur + rprd_usage_chlng_fault + \
+    rpr_missing_trait_behave + rpr_missing_trait_ineff + rpr_missing_trait_harm + \
+    rpr_missing_trait_hard + rpr_missing_trait_wage + rpr_missing_trait_trust + \
+    rpr_missing_trait_gender + bad_rep_exp + dev_tknto_rec_Y + \
+    dev_rec_chlng_fair_price + dev_rec_chlng_usable + dev_rec_chlng_datasec + \
+    dev_rec_chlng_env_poll + dev_rec_chlng_hard_find + will_dev_rec + \
+    did_with_data_Y + did_with_device_econ + gender:rpr_missing_trait_gender, \
+    family = binomial, data = df)\
+\
+\
+\
+Reduced Model \
+AIC: 395 \
+Call:\
+glm(formula = repair_try ~ gender + device_count_5_yr + dump_reason_break + \
+    slt_lack_tu + slt_lack_lang + slt_lack_parts + slt_lack_repairer + \
+    rprd_usage_chlng_fault + rpr_missing_trait_trust + rpr_missing_trait_gender + \
+    dev_tknto_rec_Y + dev_rec_chlng_hard_find + did_with_device_econ, \
+    family = binomial, data = df)\
+\
+Deviance Residuals: \
+    Min       1Q   Median       3Q      Max  \
+-2.4999  -0.9607   0.5115   0.8135   1.7348  \
+\
+Coefficients:\
+                         Estimate Std. Error z value Pr(>|z|)   \
+(Intercept)              -1.25724    0.48891  -2.572  0.01013 * \
+genderWoman              -0.76450    0.29607  -2.582  0.00982 **\
+device_count_5_yr         0.11214    0.05442   2.061  0.03932 * \
+dump_reason_break        -0.40389    0.26534  -1.522  0.12796   \
+slt_lack_tu               0.90456    0.30414   2.974  0.00294 **\
+slt_lack_lang             0.75308    0.37256   2.021  0.04324 * \
+slt_lack_parts            0.73106    0.27123   2.695  0.00703 **\
+slt_lack_repairer         0.68465    0.30933   2.213  0.02688 * \
+rprd_usage_chlng_fault   -0.66105    0.29823  -2.217  0.02665 * \
+rpr_missing_trait_trust   0.64316    0.27960   2.300  0.02143 * \
+rpr_missing_trait_gender  0.70075    0.45174   1.551  0.12085   \
+dev_tknto_rec_Y           0.53534    0.28816   1.858  0.06320 . \
+dev_rec_chlng_hard_find  -1.03492    0.39741  -2.604  0.00921 **\
+did_with_device_econ1     1.01172    0.32764   3.088  0.00202 **\
+---\
+Signif. codes:  0 \'91***\'92 0.001 \'91**\'92 0.01 \'91*\'92 0.05 \'91.\'92 0.1 \'91 \'92 1\
+\
+(Dispersion parameter for binomial family taken to be 1)\
+\
+    Null deviance: 448.21  on 350  degrees of freedom\
+Residual deviance: 367.01  on 337  degrees of freedom\
+AIC: 395.01\
+}
