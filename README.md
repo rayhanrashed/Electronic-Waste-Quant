@@ -3,7 +3,7 @@
 ```
 Initial AIC: 477.36
 Final   AIC: 437.57
-AOC: 72% - With 90-10 partition.
+AOC: 72% - With 90-10 partition
 ```
 
 *Regression Coefficients for Logistic Regression Models for predicting whether people miss their devices, based on other variables* 
