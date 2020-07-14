@@ -1,11 +1,14 @@
+# Do People Try To Self Repair?? {#literature}
+
+```{r, echo=FALSE}
+
 
 packages <- c("ggplot2","plyr", "dplyr", "multcomp","MASS","knitr","DiagrammeR","effects","caret","boot","car")
 
-
 #packages <- c("ggplot2", "readxl", "dplyr", "tidyr", "ggfortify", "DT", "reshape2", "knitr", "lubridate", "pwr", "psy", "car", "doBy", "imputeMissings", "RcmdrMisc", "questionr", "vcd", "multcomp", "KappaGUI", "rcompanion", "FactoMineR", "factoextra", "corrplot", "ltm", "goeveg", "corrplot", "FSA", "MASS", "scales", "nlme", "psych", "ordinal", "lmtest", "ggpubr", "dslabs", "stringr", "assist", "ggstatsplot", "forcats", "styler", "remedy", "snakecaser", "addinslist", "esquisse", "here", "summarytools", "magrittr", "tidyverse", "funModeling", "pander", "cluster", "abind")
 
-librarian::shelf(packages,quiet = T)
-#library(dplyr)
+librarian::shelf(packages,quiet = TRUE)
+
 #read missing_regression.csv
 # setwd("/Users/MBP/Documents/ElectronicWaste/")
 # df=read.csv("temp.csv",stringsAsFactors = T)
@@ -18,22 +21,22 @@ librarian::shelf(packages,quiet = T)
 # df$miss_another <- sub("N ", "N", df$miss_another)
 # table(df$miss_another
 #       )
-printsummary <- function(df) {
-  i <- 2
-  xtabs(~df[,i], data = df)
-  for (i in 2:length(df)) 
-  {
-    print(i)
-    print(xtabs(~df[,i], data = df))
-    i <- i + 1
-    
-  }  
-}
+# printsummary <- function(df) {
+#   i <- 2
+#   xtabs(~df[,i], data = df)
+#   for (i in 2:length(df)) 
+#   {
+#     print(i)
+#     print(xtabs(~df[,i], data = df))
+#     i <- i + 1
+#     
+#   }  
+# }
 #creating a mutation script
 
 
 mutation_df <- function(df) {
-  library(plyr)
+  #library(plyr)
   df$device_count_5_yr <- factor(
     df$device_count_5_yr
     ,
@@ -101,14 +104,14 @@ mutation_df <- function(df) {
   df$self_rep_combined <- factor(df$self_rep_combined)
   df$self_rep_combined <- relevel(df$self_rep_combined,"N")
   
-  
-  for (i in 11:43) {
+  for (i in 11:44) {
     df[,i] <- as.factor(df[,i])
   }
   
   for (i in 46:51) {
     df[,i] <- as.factor(df[,i])
   }
+
   
  return(df)
 }
@@ -136,10 +139,9 @@ pack <- function(filename) {
   return(df)
 }
 
-
 Generate_RoC <- function(full_model,null_model,df,outcome,direction) {
   library(ROCR)
-  librarian::shelf(pROC)
+  librarian::shelf(pROC,quiet = T)
   n <- nrow(df)
   print(n)
   trainingidx <- sample(1:n, 0.9 * n)
@@ -148,7 +150,7 @@ Generate_RoC <- function(full_model,null_model,df,outcome,direction) {
   step_model <- NULL
   if (direction=="F") {
     step_model <- step(null_model, scope = list(lower = null_model, upper = full_model), direction = "forward", trace = FALSE)
-    print(step_model %>% summary())
+    #print(step_model %>% summary())
     test$pred <- predict(step_model,test,type="response")
     test$real <- test[,outcome]
     
@@ -158,7 +160,7 @@ Generate_RoC <- function(full_model,null_model,df,outcome,direction) {
   }
   else{
     step_model <-step(full.model,direction = "backward",trace = 0)
-    print(step_model %>% summary())
+    #print(step_model %>% summary())
     
     test$pred <- predict(step_model,test,type="response")
     test$real <- test[,outcome]
@@ -176,117 +178,155 @@ Generate_RoC <- function(full_model,null_model,df,outcome,direction) {
 
 }
 
-sanity_check <- function(df) {
-  str(df)
-  view(df)
-  df[!complete.cases(df),]
-  df %>% colnames()
-  i=0
-  for (v in colnames(df)) {
-    print(v)
-    i=i+1
-    print(i)
-    
-    print(xtabs(~df[,v],data=df))
-    
-    if (v == "X" | v =="occupation" | v=="miss_dev") {
-      next
-    }
-    
-  }
-}
 
+```
+
+```{r echo=FALSE}
 #temp <- pack("temp.csv")
 filename="temp.csv"
 #filename="missing_regression.csv"
 df <- pack(filename)
+
+#view(df)
+# i=0
+# for (v in colnames(df)) {
+#   print(v)
+#   i=i+1
+#   print(i)
+# 
+#   print(xtabs(~df[,v],data=df))
+#   
+#   if (v == "X" | v =="occupation" | v=="miss_dev") {
+#     next
+#   }
+#   #model <- glm(miss_dev~df[,v],data = df,family = "binomial")
+#   #print(summary(model))
+#   
+# }
+#view(df)
+#df[!complete.cases(df),]
+#givenness <- read.csv(url("https://osf.io/q9e3a/download"))
+#view(givenness)
+
+
+
+
 #df %>% colnames()
-#df[,46] <- as.factor(df[,46])
-sanity_check(df)
+#full.model <- update(full.model,~.)
+# full.model <- update(full.model,~.-X-age-division)
 attach(df)
-#full.model <- glm(repair_try ~age+gender+edu+device_count_5_yr+miss_dev+dump_reason_new+dump_reason_old+dump_reason_break+dump_reason_theft+dump_reason_slow+dump_reason_lag+slt_lack_tu+slt_lack_lang+slt_lack_notint+slt_lack_fear+slt_lack_parts+slt_lack_repairer+rpr_missing_trait_behave+rpr_missing_trait_ineff+rpr_missing_trait_harm+rpr_missing_trait_hard+rpr_missing_trait_wage+rpr_missing_trait_trust+rpr_missing_trait_gender+bad_rep_exp+dev_tknto_rec_Y+did_with_data_Y+gender:rpr_missing_trait_gender+did_with_device_econ, data = df, family = binomial)
 
 full.model <- glm(repair_try ~age+gender+edu+device_count_5_yr+miss_dev+dump_reason_new+dump_reason_old+dump_reason_break+dump_reason_theft+dump_reason_slow+dump_reason_lag+slt_lack_tu+slt_lack_lang+slt_lack_notint+slt_lack_fear+slt_lack_parts+slt_lack_repairer+rprd_usage_chlng_No+rprd_usage_chlng_reluc+rprd_usage_chlng_dur+rprd_usage_chlng_fault+rpr_missing_trait_behave+rpr_missing_trait_ineff+rpr_missing_trait_harm+rpr_missing_trait_hard+rpr_missing_trait_wage+rpr_missing_trait_trust+rpr_missing_trait_gender+bad_rep_exp+dev_tknto_rec_Y+dev_rec_chlng_fair_price+dev_rec_chlng_usable+dev_rec_chlng_datasec+dev_rec_chlng_env_poll+dev_rec_chlng_hard_find+will_dev_rec+did_with_data_Y+did_with_device_econ, data = df, family = binomial)
 
-
-
-#full model for success- Not try
-#full.model <- glm(repair_succ ~age+gender+edu+device_count_5_yr+miss_dev+dump_reason_new+dump_reason_old+dump_reason_break+dump_reason_theft+dump_reason_slow+dump_reason_lag+slt_lack_tu+slt_lack_lang+slt_lack_notint+slt_lack_fear+slt_lack_parts+slt_lack_repairer+rprd_usage_chlng_No+rprd_usage_chlng_reluc+rprd_usage_chlng_dur+rprd_usage_chlng_fault+rpr_missing_trait_behave+rpr_missing_trait_ineff+rpr_missing_trait_harm+rpr_missing_trait_hard+rpr_missing_trait_wage+rpr_missing_trait_trust+rpr_missing_trait_gender+bad_rep_exp+dev_tknto_rec_Y+dev_rec_chlng_fair_price+dev_rec_chlng_usable+dev_rec_chlng_datasec+dev_rec_chlng_env_poll+dev_rec_chlng_hard_find+will_dev_rec+did_with_data_Y+did_with_device_econ+gender:rpr_missing_trait_gender, data = df, family = binomial)
-
-
 full.model %>% summary()
+```
+
+```{r}
 backward.model <- step(full.model,direction = "backward",trace = 0)
-
-
 
 backward.model %>% summary()
 
-1/vif(backward.model)
-mean(vif(backward.model))
-null.model <- glm(repair_try ~1, data = df, family = binomial)
-null.model %>% summary()
-Generate_RoC(full.model,null.model,df,"repair_try")
+```
 
+$$
+\begin{aligned}
+\log\left[ \frac { P( repair\_try = 1 ) }{ 1 - P( repair\_try = 1 ) } \right] &= -1.26 - 0.76(gender_{woman}) + 0.11(device\_count\_5\_yr)\ - \\
+&\quad 0.4(dump\_reason\_break) + 0.9(lack\_of\_tutorial) + 0.75(language\_barrier\_of\_tutorial)\ + \\
+&\quad 0.73(lack\_of\_parts) + 0.68(lack\_of\_good\_repairer) - 0.66(fear_that_repaired_device_faulty)\ + \\
+&\quad 0.64(repairers\_lack\_trust) + 0.7(gender\_adversary\_of\_repairers) + 0.54(dev\_tknto\_rec\_Y)\ - \\
+&\quad 1.03(dev\_rec\_chlng\_hard\_find) + 1.01(did\_with\_device\_econ_{1}) + \epsilon
+\end{aligned}
+$$
+The AIC Value was Initially 436.
+After Stepwise Regression, it came down to 395.
 
-full.model <- glm(formula = repair_try ~ gender + device_count_5_yr + dump_reason_break + 
-      slt_lack_tu + slt_lack_lang + slt_lack_parts + slt_lack_repairer + 
-      rprd_usage_chlng_fault + rpr_missing_trait_trust + rpr_missing_trait_gender + 
-      dev_tknto_rec_Y + dev_rec_chlng_hard_find + did_with_device_econ, 
-    family = binomial, data = df)
+The 10 fold cross validation accuracy is below:
+```{r}
+cross_validated_model <- boot::cv.glm(df,glmfit = backward.model,K = 10)
+print((1-cross_validated_model$delta[1])*100)
 
-
-full.model <- glm(formula = repair_try ~ gender + device_count_5_yr + dump_reason_break + 
-                    slt_lack_tu + slt_lack_lang + slt_lack_parts + slt_lack_repairer + 
-                    rprd_usage_chlng_fault + rpr_missing_trait_trust + rpr_missing_trait_gender + 
-                    dev_tknto_rec_Y + dev_rec_chlng_hard_find + did_with_device_econ+device_count_5_yr:rprd_usage_chlng_fault+device_count_5_yr:dev_tknto_rec_Y+device_count_5_yr:did_with_device_econ+slt_lack_tu:dev_tknto_rec_Y+slt_lack_lang:rpr_missing_trait_gender+slt_lack_parts:rpr_missing_trait_gender+rpr_missing_trait_gender:dev_rec_chlng_hard_find+rpr_missing_trait_trust:dev_rec_chlng_hard_find+rpr_missing_trait_gender:did_with_device_econ,
-                  family = binomial, data = df)
-
-
-librarian::shelf(effects)
-plot(effects::predictorEffect("rprd_usage_chlng_fault",backward.model),lines=list(multiline=TRUE))
-all_eff <- predictorEffects(backward.model)
-plot(all_eff,lines=list(multiline=TRUE))
-
-library(equatiomatic)
-equatiomatic::extract_eq(backward.model,use_coefs = T,coef_digits = 2,wrap = T,terms_per_line = 3,ital_vars = T,fix_signs = T)
-
-
-
-View(df)
-train_control <- trainControl(method = "cv", number = 10)
-
-# train the model on training set
-model <- train(repair_try ~gender + device_count_5_yr + dump_reason_break + 
-                 slt_lack_tu + slt_lack_lang + slt_lack_parts + slt_lack_repairer + 
-                 rprd_usage_chlng_fault + rpr_missing_trait_trust + rpr_missing_trait_gender + 
-                 dev_tknto_rec_Y + dev_rec_chlng_hard_find + did_with_device_econ,
-               data = df,
-               trControl = train_control,
-               method = "glm",
-               family=binomial())
+```
+Lets also look at the ROC curve for the the fitted logistic regression model:
+```{r}
 null.model <- glm(repair_try~1,family = binomial(),data = df)
 Generate_RoC(full_model = full.model,null_model = null.model,df = df,direction = "B",outcome = "repair_try")
 
-cross_validated_model <- boot::cv.glm(df,glmfit = backward.model,K = 10)
-cross_validated_model$delta
+```
+With a good fit in the model, lets diagnosis our model parameters for multicolineariy. If the ***VIF*** (Variance Inflation Factor) is $>10$ for any predictor, we might be in trouble.
 
+```{r}
+cat("MIN IVF: ",min(vif(backward.model)))
+cat("MAX IVF: ",max(vif(backward.model)))
+cat("MEAN IVF: ",mean(vif(backward.model)))
+        
+```
+Values $>0$ means odd>1  So, that accounts more for YES than NO.
+
+
+***gender_woman:  *** $-0.76$: 
+Typicaly women are less inclined toward repair.
+
+
+
+***device_count_5_yr: *** $0.11$ The more number of devices you have had during the last 5 years, the more you are inclined to try repair your own devices.
+
+
+***lack_of_tutorial***: $0.9$ If you feel that there is lack of tutorial out there, then there is a solid chance that you at least tried repair your own, but probably did/not succeed due to the lack of it.
+
+
+***language_barrier_of_tutorial***: $0.75$ This also predicts very well you feel that there is lack of tutorial ***In Your Own Language***, but for the same reason stated above, there is solid chance that you at least tried repair your own, giving odd ratio of $2.12$.
+
+
+***lack_of_parts***: $0.73$ Similar reason.
+
+
+
+***fear that trying to repair will lead to faulty device*** $−0.66$ The negative log odd says this fear will lead to less amount of self repair trial.
+
+
+***repairers_lack_trust: *** $0.64$ When you dont trust the repairers out there in the market, you try to do it on your own.
+
+
+***gender_adversary_of_repairers: *** $0.70$ Gender Adversary makes you more likely to try your own luck. )
+
+
+***device ever taken to RECYCLER: *** $0.54$ If you know the recycler community, and used to give them your devices/sell to them, then you care less about the safety and usefulness, and overcome fear to try your own.
+
+
+***Hard to Find RECYCLER: *** $ -1.03$ The above effect is better described with understanding from this. When you find it hard to find any recycler, your fear of losing the device utility (log odd -0.66) intensifies. And, so you do not try repair your devices on your own.
+
+***Have you did anything economic with your device? (selling/parts selling etc) *** $1.01$. If you know your device still has some monetary value, you try to do your own. [Probably a bit contradictory! How do we fix that ? :P]
+
+
+
+
+
+Lets look at the effects plot to better understand the individual effects of each predictor:
+
+```{r}
+
+#librarian::shelf(effects)
 
 for (n in c(
-  "gender"
-  ,"did_with_device_econ"
-  ,"device_count_5_yr"
-  ,"dump_reason_break"
-  ,"slt_lack_tu"
-  ,"slt_lack_lang"
-  ,"slt_lack_parts"
-  ,"slt_lack_repairer"
-  ,"rprd_usage_chlng_fault"
-  ,"rpr_missing_trait_trust"
-  ,"rpr_missing_trait_gender"
-  ,"dev_tknto_rec_Y"
-  ,"dev_rec_chlng_hard_find"
+"gender"
+,"did_with_device_econ"
+,"device_count_5_yr"
+,"dump_reason_break"
+,"slt_lack_tu"
+,"slt_lack_lang"
+,"slt_lack_parts"
+,"slt_lack_repairer"
+,"rprd_usage_chlng_fault"
+,"rpr_missing_trait_trust"
+,"rpr_missing_trait_gender"
+,"dev_tknto_rec_Y"
+,"dev_rec_chlng_hard_find"
 )){
   #print(n)
   print(plot(effects::predictorEffect(n,backward.model)))
 }
+
+```
+
+
 
